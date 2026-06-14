@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 
-<html class="light" lang="en"><head>
+<html class="scroll-smooth" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>LA Family Day Trip Planner</title>
+<title>LA Family Travel Planner - Kinetic Horizon</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
                 extend: {
                     "colors": {
-                        "on-secondary-container": "#684000",
-                        "secondary-container": "#fea619",
-                        "surface-container-highest": "#d3e4fe",
-                        "surface-container-high": "#dce9ff",
-                        "on-secondary-fixed": "#2a1700",
-                        "secondary-fixed-dim": "#ffb95f",
-                        "primary-fixed-dim": "#b4c5ff",
-                        "on-tertiary-fixed": "#002113",
-                        "on-primary": "#ffffff",
-                        "on-background": "#0b1c30",
-                        "surface-container-low": "#eff4ff",
-                        "primary": "#004ac6",
-                        "on-error-container": "#93000a",
-                        "secondary-fixed": "#ffddb8",
-                        "on-surface-variant": "#434655",
-                        "on-primary-fixed": "#00174b",
-                        "tertiary-container": "#007d55",
-                        "tertiary-fixed": "#6ffbbe",
-                        "surface-bright": "#f8f9ff",
-                        "outline": "#737686",
-                        "error-container": "#ffdad6",
-                        "on-primary-fixed-variant": "#003ea8",
-                        "surface-container-lowest": "#ffffff",
-                        "on-surface": "#0b1c30",
-                        "on-tertiary-fixed-variant": "#005236",
-                        "on-tertiary": "#ffffff",
-                        "secondary": "#855300",
-                        "inverse-surface": "#213145",
-                        "on-tertiary-container": "#bdffdb",
-                        "tertiary": "#006242",
-                        "on-error": "#ffffff",
-                        "tertiary-fixed-dim": "#4edea3",
-                        "outline-variant": "#c3c6d7",
                         "surface": "#f8f9ff",
-                        "inverse-on-surface": "#eaf1ff",
-                        "on-secondary-fixed-variant": "#653e00",
-                        "on-secondary": "#ffffff",
                         "surface-container": "#e5eeff",
+                        "inverse-on-surface": "#eaf1ff",
+                        "secondary-container": "#fea619",
                         "inverse-primary": "#b4c5ff",
+                        "on-error-container": "#93000a",
+                        "outline-variant": "#c3c6d7",
+                        "inverse-surface": "#213145",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-tint": "#0053db",
+                        "tertiary-fixed": "#6ffbbe",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f8f9ff",
+                        "surface-container-low": "#eff4ff",
+                        "on-tertiary-fixed": "#002113",
+                        "on-secondary-fixed": "#2a1700",
+                        "on-primary-fixed": "#00174b",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#d3e4fe",
+                        "secondary": "#855300",
+                        "outline": "#737686",
+                        "on-surface": "#0b1c30",
+                        "on-secondary-container": "#684000",
+                        "tertiary": "#006242",
                         "primary-fixed": "#dbe1ff",
                         "on-primary-container": "#eeefff",
-                        "surface-tint": "#0053db",
-                        "surface-dim": "#cbdbf5",
-                        "error": "#ba1a1a",
-                        "background": "#f8f9ff",
+                        "on-secondary": "#ffffff",
+                        "tertiary-container": "#007d55",
+                        "on-error": "#ffffff",
+                        "secondary-fixed": "#ffddb8",
+                        "on-secondary-fixed-variant": "#653e00",
+                        "surface-container-high": "#dce9ff",
+                        "secondary-fixed-dim": "#ffb95f",
                         "primary-container": "#2563eb",
-                        "surface-variant": "#d3e4fe"
+                        "on-surface-variant": "#434655",
+                        "on-primary": "#ffffff",
+                        "surface-variant": "#d3e4fe",
+                        "primary": "#004ac6",
+                        "background": "#f8f9ff",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed-dim": "#4edea3",
+                        "on-tertiary-container": "#bdffdb",
+                        "on-background": "#0b1c30",
+                        "surface-dim": "#cbdbf5",
+                        "on-tertiary-fixed-variant": "#005236"
                     },
                     "borderRadius": {
                         "DEFAULT": "0.25rem",
@@ -69,34 +69,34 @@
                         "full": "9999px"
                     },
                     "spacing": {
-                        "margin-desktop": "40px",
+                        "stack-sm": "8px",
+                        "gutter": "24px",
+                        "stack-md": "16px",
                         "stack-lg": "32px",
                         "base": "4px",
                         "margin-mobile": "16px",
-                        "gutter": "24px",
-                        "container-max": "1280px",
-                        "stack-sm": "8px",
-                        "stack-md": "16px"
+                        "margin-desktop": "40px",
+                        "container-max": "1280px"
                     },
                     "fontFamily": {
-                        "headline-sm": ["Plus Jakarta Sans"],
-                        "label-md": ["Inter"],
-                        "display-lg": ["Plus Jakarta Sans"],
-                        "headline-md": ["Plus Jakarta Sans"],
                         "display-lg-mobile": ["Plus Jakarta Sans"],
+                        "body-lg": ["Inter"],
                         "label-sm": ["Inter"],
+                        "label-md": ["Inter"],
+                        "headline-sm": ["Plus Jakarta Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
                         "body-md": ["Inter"],
-                        "body-lg": ["Inter"]
+                        "display-lg": ["Plus Jakarta Sans"]
                     },
                     "fontSize": {
-                        "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
-                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500"}],
-                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
                         "display-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
                         "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                        "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
                         "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
                     }
                 },
             },
@@ -107,291 +107,356 @@
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
             vertical-align: middle;
         }
-        .timeline-line {
-            background-image: linear-gradient(to bottom, #004ac6 50%, transparent 50%);
-            background-size: 2px 12px;
-            background-repeat: repeat-y;
+        .timeline-spine::before {
+            content: '';
+            position: absolute;
+            left: 11px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            border-left: 2px dashed #c3c6d7;
+            z-index: 0;
         }
-        .card-shadow {
-            box-shadow: 0 4px 20px -2px rgba(0,0,0,0.05);
-        }
-        .glass-creator {
-            backdrop-filter: blur(20px);
-            background: rgba(255, 255, 255, 0.8);
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
     </style>
 </head>
-<body class="bg-background text-on-background font-body-md overflow-x-hidden">
-<!-- TopNavBar -->
-<header class="bg-surface dark:bg-inverse-surface shadow-sm docked full-width top-0 sticky z-50">
-<nav class="flex justify-between items-center px-margin-desktop w-full h-16 max-w-container-max mx-auto">
-<div class="text-headline-md font-display-lg text-primary dark:text-primary-fixed-dim">
-                LA Family Travel
-            </div>
-<div class="hidden md:flex space-x-gutter items-center">
-<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md" href="#">Home</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Parking</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Family Info</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Creator Mode</a>
+<body class="bg-surface text-on-surface font-body-md text-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="bg-surface/80 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm">
+<nav class="flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 w-full max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<span class="font-display-lg-mobile text-display-lg-mobile font-bold text-primary">Kinetic Horizon</span>
 </div>
-<div class="flex items-center space-x-stack-md">
-<button class="text-on-surface font-label-md px-stack-md py-2 hover:underline">Login</button>
-<button class="bg-primary text-on-primary font-label-md px-stack-lg py-2 rounded-full hover:bg-primary-container transition-all">Plan Trip</button>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-headline-sm text-headline-sm text-primary border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="font-headline-sm text-headline-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Trips</a>
+<a class="font-headline-sm text-headline-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Family Info</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary p-2">notifications</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary p-2">settings</button>
+<div class="w-8 h-8 rounded-full bg-primary-fixed-dim flex items-center justify-center text-primary font-bold overflow-hidden shadow-inner">
+<img alt="User profile avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDprjFvg9Zrgx7eJcENSgrFGyPB300JUpQQwceeFta--qh7F8c_fHY3mhqmn3GcPfitcpjq-cKUFl8xvPgEzY9r35xolDscNnEpNyHXCn7K8wBx6-Aea-Vii8lt0JDccT_Ir3F7GEIEHTNaBFBlUgFAF6HtjIIQy4PbKmfiSfsHCHrOcuTalAlXnWgpVmsO_1ocqxMSc9kPIai0kAdEQB6HNTZ25YqLbRcWrC5BOTKdz3PbUkE-wMxo-kszI5YKCrses4VEu9ao6w"/>
+</div>
 </div>
 </nav>
 </header>
-<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<!-- SideNavBar (Hidden on Mobile) -->
+<aside class="fixed left-0 top-16 h-[calc(100vh-64px)] w-64 hidden lg:flex flex-col bg-surface border-r border-outline-variant p-stack-md z-40">
+<div class="mb-stack-lg p-2">
+<div class="flex items-center gap-3 mb-1">
+<div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined">map</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Summer 2024</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">European Adventure</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-2">
+<a class="flex items-center gap-3 p-3 bg-secondary-container text-on-secondary-container rounded-xl font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">dashboard</span> Dashboard
+            </a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-high rounded-xl transition-all font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">event_repeat</span> Timeline
+            </a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-high rounded-xl transition-all font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">local_parking</span> Parking
+            </a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-high rounded-xl transition-all font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">payments</span> Expenses
+            </a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-high rounded-xl transition-all font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">photo_library</span> Shared Media
+            </a>
+</nav>
+<button class="mt-auto w-full py-3 bg-primary text-on-primary rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-transform">
+<span class="material-symbols-outlined">person_add</span> Invite Family
+        </button>
+</aside>
+<!-- Main Content Canvas -->
+<main class="lg:ml-64 pt-16 min-h-screen">
 <!-- Hero Section -->
-<section class="relative rounded-3xl overflow-hidden mb-stack-lg min-h-[400px] flex items-center bg-surface-container">
+<section class="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
 <div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover opacity-30 mix-blend-multiply" data-alt="A cinematic wide-angle view of the Los Angeles skyline during a golden hour sunset, with the Hollywood sign visible in the distance. The lighting is warm and amber, casting long shadows over the urban landscape. The style is modern corporate travel photography, emphasizing a sense of adventure and professional planning with a clean, high-key aesthetic typical of a premium family concierge service." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWb7K6rD14RBPGOpWGlaTmZOuBdZqZqLymo9zXs__nB0B8WteXQU-zc4b_sFhwm3DufaI2dIt73cBL5uW18coCjpnLXAWmJSQBZ_0cIH1pb3F71sNOBodmaKmTaYfQ1HLTK-ysI-ymJSUNV8ZYAGbUQdv8SS_Rx-ri8WeLd2qHYOVtPSq7UkzcveNE69G9oEiZGxodBjsONkKFIQ_SxP9C0fPaBUFRKvQj_F6MLbLp6hoWpmXsqCuNjSLCoQVjbkPxUZnIoQsvQg"/>
+<img alt="Los Angeles skyline at sunset" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLuiE2xJysA8cS3UVsVwug5ZD7HGNfbfH02QztrdYvAjuFMfSleJ3RdeM4-NecNX9yLKQ1It8mzf44moH0HO_Plzy8oCOq_V4ODaBK36hqon_j8hxgFPUE-HuZZ8yiwvCpqUS-OxXwk9prErkWDG2BtXUgP7H7xKNugPV7zXA24WWyO-2tGcltwmO0DJ4bExTlDXEth2ZBSAZZA_lCT4KK7Yl0F-Kbs3XXgytquBGoU1mmRkuGg38dfT"/>
+<div class="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-surface"></div>
 </div>
-<div class="relative z-10 p-stack-lg md:p-16 max-w-3xl">
-<div class="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-stack-md">
-<span class="material-symbols-outlined text-sm">location_on</span>
-<span class="font-label-md text-label-md">Starting: Scott Road, Burbank, CA</span>
+<div class="relative z-10 text-center px-margin-mobile max-w-4xl">
+<div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-6 border border-white/30">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="text-white font-label-md text-label-md tracking-wide">SCOTT ROAD, BURBANK, CA</span>
 </div>
-<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-stack-md">Family Day Trip Planner</h1>
-<p class="text-body-lg text-on-surface-variant mb-stack-lg max-w-xl">Optimize your Los Angeles experience with curated routes designed for families. Choose between cultural depth or iconic landmarks.</p>
-<!-- Quick Stats Grid -->
-<div class="grid grid-cols-2 md:grid-cols-4 gap-stack-md">
-<div class="bg-surface/80 backdrop-blur p-4 rounded-2xl border border-outline-variant">
-<span class="material-symbols-outlined text-primary mb-1">directions_car</span>
-<div class="text-label-sm text-on-surface-variant">Drive Time</div>
-<div class="font-headline-sm text-on-surface">2.5 hrs</div>
+<h1 class="font-display-lg text-display-lg md:text-[64px] text-white drop-shadow-lg mb-4">LA Family Travel Planner</h1>
+<p class="font-body-lg text-body-lg text-white/90 mb-10 max-w-2xl mx-auto">Your effortless digital concierge for navigating the City of Angels. Optimized for multi-generational logistics and cinematic memories.</p>
+<!-- Quick Stats -->
+<div class="flex flex-wrap justify-center gap-4">
+<div class="glass-card px-6 py-4 rounded-2xl flex flex-col items-center min-w-[140px]">
+<span class="text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider mb-1">Duration</span>
+<span class="text-primary font-headline-md text-headline-md">14 Hours</span>
 </div>
-<div class="bg-surface/80 backdrop-blur p-4 rounded-2xl border border-outline-variant">
-<span class="material-symbols-outlined text-primary mb-1">visibility</span>
-<div class="text-label-sm text-on-surface-variant">Sightseeing</div>
-<div class="font-headline-sm text-on-surface">8.5 hrs</div>
+<div class="glass-card px-6 py-4 rounded-2xl flex flex-col items-center min-w-[140px]">
+<span class="text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider mb-1">Driving</span>
+<span class="text-primary font-headline-md text-headline-md">2.5h Total</span>
 </div>
-<div class="bg-surface/80 backdrop-blur p-4 rounded-2xl border border-outline-variant">
-<span class="material-symbols-outlined text-primary mb-1">payments</span>
-<div class="text-label-sm text-on-surface-variant">Est. Costs</div>
-<div class="font-headline-sm text-on-surface">$120-$180</div>
-</div>
-<div class="bg-surface/80 backdrop-blur p-4 rounded-2xl border border-outline-variant">
-<span class="material-symbols-outlined text-primary mb-1">wb_sunny</span>
-<div class="text-label-sm text-on-surface-variant">Weather</div>
-<div class="font-headline-sm text-on-surface">74°F Sunny</div>
+<div class="glass-card px-6 py-4 rounded-2xl flex flex-col items-center min-w-[140px]">
+<span class="text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider mb-1">Weather</span>
+<span class="text-primary font-headline-md text-headline-md flex items-center gap-1">
+                            74°F <span class="material-symbols-outlined text-secondary-container">sunny</span>
+</span>
 </div>
 </div>
 </div>
 </section>
-<!-- Plan Comparison Header -->
-<div class="flex flex-col md:flex-row justify-between items-end mb-stack-lg gap-4">
+<!-- Plans Comparison Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
 <div>
-<h2 class="font-headline-md text-headline-md text-on-surface">Choose Your Path</h2>
-<p class="text-on-surface-variant">Comparing Cultural Depth vs. City Icons</p>
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-on-surface mb-2">Daily Itinerary Comparison</h2>
+<p class="text-on-surface-variant max-w-xl">Choose between a culturally focused route including the Sikh Gurdwara or an art-centric flow featuring the Academy Museum.</p>
 </div>
-<div class="flex space-x-2">
-<span class="flex items-center space-x-1 text-label-sm px-3 py-1 bg-surface-container-high rounded-full">
-<span class="w-2 h-2 rounded-full bg-primary"></span>
-<span>Plan A: 7 Stops</span>
-</span>
-<span class="flex items-center space-x-1 text-label-sm px-3 py-1 bg-surface-container-high rounded-full">
-<span class="w-2 h-2 rounded-full bg-secondary"></span>
-<span>Plan B: 6 Stops</span>
-</span>
+<div class="flex items-center gap-3 bg-surface-container p-1 rounded-full">
+<button class="px-6 py-2 rounded-full bg-primary text-white font-bold text-label-md">Detailed View</button>
+<button class="px-6 py-2 rounded-full text-on-surface-variant font-bold text-label-md hover:bg-surface-variant transition-colors">Map View</button>
 </div>
 </div>
-<!-- Plan Comparison Grid -->
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter mb-stack-lg">
-<!-- Plan A: Cultural Roots -->
-<div class="bg-white rounded-3xl p-stack-lg card-shadow border border-surface-container">
-<div class="flex justify-between items-start mb-stack-lg">
-<div>
-<h3 class="font-headline-sm text-headline-sm text-primary">Plan A: Cultural Roots</h3>
-<p class="text-label-md text-on-surface-variant">The Sikh Gurdwara Journey</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Plan A -->
+<div class="bg-surface-container-low rounded-[32px] p-8 shadow-sm relative overflow-hidden border border-outline-variant/30">
+<div class="absolute top-0 right-0 p-6">
+<span class="bg-tertiary-container text-on-tertiary-container px-4 py-1 rounded-full font-label-sm text-label-sm">CULTURAL FOCUS</span>
 </div>
-<span class="material-symbols-outlined text-primary text-3xl">temple_hindu</span>
-</div>
-<div class="relative pl-8">
-<div class="absolute left-3 top-2 bottom-2 w-0.5 timeline-line"></div>
-<!-- Timeline Items -->
-<div class="space-y-stack-lg">
-<div class="relative">
-<div class="absolute -left-[29px] top-1.5 w-4 h-4 rounded-full bg-primary ring-4 ring-primary-fixed"></div>
-<div class="font-label-sm text-primary mb-1">07:00 AM</div>
-<div class="font-headline-sm text-headline-sm">Hollywood Walk of Fame</div>
-</div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">08:20 AM</div>
-<div class="font-headline-sm text-headline-sm">Greystone Mansion</div>
-</div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">11:00 AM</div>
-<div class="font-headline-sm text-headline-sm text-secondary">Sikh Gurdwara (Langar)</div>
-</div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">02:20 PM</div>
-<div class="font-headline-sm text-headline-sm">Central Library</div>
-</div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">03:05 PM</div>
-<div class="font-headline-sm text-headline-sm">Last Bookstore</div>
-</div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">04:20 PM</div>
-<div class="font-headline-sm text-headline-sm">The Broad</div>
-</div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">06:00 PM</div>
-<div class="font-headline-sm text-headline-sm">Getty Center Sunset</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-8">Plan A (With Gurudwara)</h3>
+<div class="relative timeline-spine space-y-10 pl-10">
+<!-- Timeline Item -->
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary border-4 border-surface shadow-sm z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">07:00 AM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Hollywood Walk of Fame &amp; TCL Theatre</h4>
 </div>
 </div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">08:20 AM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Greystone Mansion</h4>
 </div>
-<button class="w-full mt-stack-lg bg-primary text-on-primary py-4 rounded-2xl font-headline-sm hover:scale-[1.02] transition-transform">
-                    Open Interactive Route A
-                </button>
 </div>
-<!-- Plan B: City Icons -->
-<div class="bg-white rounded-3xl p-stack-lg card-shadow border border-surface-container">
-<div class="flex justify-between items-start mb-stack-lg">
-<div>
-<h3 class="font-headline-sm text-headline-sm text-secondary">Plan B: City Icons</h3>
-<p class="text-label-md text-on-surface-variant">Maximum Sightseeing Flow</p>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-secondary-container border-4 border-surface z-10 animate-pulse"></div>
+<div class="flex flex-col bg-white p-4 rounded-2xl shadow-sm border-l-4 border-secondary-container">
+<span class="text-secondary font-bold text-label-sm">11:00 AM – 2:00 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Sikh Gurdwara of Los Angeles</h4>
+<p class="text-on-surface-variant text-label-sm mt-1">7640 Lankershim Blvd • High cultural significance</p>
 </div>
-<span class="material-symbols-outlined text-secondary text-3xl">location_city</span>
 </div>
-<div class="relative pl-8">
-<div class="absolute left-3 top-2 bottom-2 w-0.5 timeline-line"></div>
-<!-- Timeline Items -->
-<div class="space-y-stack-lg">
-<div class="relative">
-<div class="absolute -left-[29px] top-1.5 w-4 h-4 rounded-full bg-secondary ring-4 ring-secondary-fixed"></div>
-<div class="font-label-sm text-secondary mb-1">07:00 AM</div>
-<div class="font-headline-sm text-headline-sm">Hollywood Walk of Fame</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">02:20 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">LA Central Library</h4>
 </div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">08:20 AM</div>
-<div class="font-headline-sm text-headline-sm">Greystone Mansion</div>
 </div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">10:00 AM</div>
-<div class="font-headline-sm text-headline-sm">Getty Center (Morning)</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">03:05 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">The Last Bookstore</h4>
 </div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">01:45 PM</div>
-<div class="font-headline-sm text-headline-sm">Central Library</div>
 </div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">02:35 PM</div>
-<div class="font-headline-sm text-headline-sm">Last Bookstore</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">04:20 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">The Broad &amp; Downtown Sights</h4>
+<p class="text-on-surface-variant text-label-sm mt-1">Includes Market &amp; Bradbury Building</p>
 </div>
-<div class="relative">
-<div class="absolute -left-[25px] top-1.5 w-2 h-2 rounded-full bg-outline"></div>
-<div class="font-label-sm text-on-surface-variant mb-1">04:10 PM</div>
-<div class="font-headline-sm text-headline-sm">The Broad</div>
+</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">07:00 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Getty Center Sunset</h4>
 </div>
 </div>
 </div>
-<button class="w-full mt-stack-lg border-2 border-secondary text-secondary py-4 rounded-2xl font-headline-sm hover:bg-secondary/5 transition-colors">
-                    Open Interactive Route B
-                </button>
+<button class="mt-12 w-full py-4 bg-primary text-on-primary rounded-2xl font-bold flex items-center justify-center gap-3 hover:shadow-lg transition-all active:scale-95">
+<span class="material-symbols-outlined">map</span> Open Complete Plan A Route
+                    </button>
+</div>
+<!-- Plan B -->
+<div class="bg-surface-container-low rounded-[32px] p-8 shadow-sm relative overflow-hidden border border-outline-variant/30">
+<div class="absolute top-0 right-0 p-6">
+<span class="bg-primary-container text-on-primary-container px-4 py-1 rounded-full font-label-sm text-label-sm">ART &amp; CINEMA</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-8">Plan B (Standard Route)</h3>
+<div class="relative timeline-spine space-y-10 pl-10">
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">07:00 AM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Hollywood Highlights</h4>
 </div>
 </div>
-<!-- Integrated Parking Guide -->
-<section class="mb-stack-lg">
-<div class="flex items-center space-x-3 mb-stack-md">
-<span class="material-symbols-outlined text-primary">local_parking</span>
-<h3 class="font-headline-md text-headline-md text-on-surface">Integrated Parking Guide</h3>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">08:20 AM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Greystone Mansion</h4>
 </div>
-<div class="bg-surface-container rounded-3xl overflow-hidden border border-outline-variant">
-<div class="overflow-x-auto">
-<table class="w-full text-left">
-<thead class="bg-surface-container-high border-b border-outline-variant">
-<tr>
-<th class="p-4 font-label-md text-on-surface">Destination</th>
-<th class="p-4 font-label-md text-on-surface">Recommended Lot</th>
-<th class="p-4 font-label-md text-on-surface">Notes</th>
-</tr>
-</thead>
-<tbody class="divide-y divide-outline-variant">
-<tr>
-<td class="p-4 font-body-md font-semibold">Hollywood Walk</td>
-<td class="p-4 font-body-md">Ovation Hollywood Garage</td>
-<td class="p-4 text-on-surface-variant">Validation available with purchase.</td>
-</tr>
-<tr>
-<td class="p-4 font-body-md font-semibold">Greystone / Gurdwara</td>
-<td class="p-4 font-body-md">On-site Dedicated Parking</td>
-<td class="p-4 text-on-surface-variant">Free parking for visitors; quiet areas.</td>
-</tr>
-<tr>
-<td class="p-4 font-body-md font-semibold">DTLA Stops (Library/Broad)</td>
-<td class="p-4 font-body-md">World Trade Center Garage</td>
-<td class="p-4 text-on-surface-variant">Centrally located for all 3 DTLA stops.</td>
-</tr>
-<tr>
-<td class="p-4 font-body-md font-semibold">Getty Center</td>
-<td class="p-4 font-body-md">Official Getty Parking</td>
-<td class="p-4 text-on-surface-variant">$20 (or $15 after 3 PM). Requires tram ride up.</td>
-</tr>
-</tbody>
-</table>
+</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-secondary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col border-l-4 border-secondary-fixed-dim bg-white/50 p-4 rounded-xl">
+<span class="text-secondary-fixed-variant font-bold text-label-sm uppercase tracking-widest">Optional Extension</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Academy Museum</h4>
+<p class="text-on-surface-variant text-label-sm mt-1">45-90 min cinematic exploration</p>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">10:00 AM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Getty Center</h4>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">01:45 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Downtown LA Library</h4>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">02:35 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">The Last Bookstore</h4>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -left-[37px] top-1 w-6 h-6 rounded-full bg-primary-fixed-dim border-4 border-surface z-10"></div>
+<div class="flex flex-col">
+<span class="text-primary font-bold text-label-sm">04:10 PM</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">The Broad &amp; Dinner</h4>
+</div>
+</div>
+</div>
+<button class="mt-12 w-full py-4 bg-primary text-on-primary rounded-2xl font-bold flex items-center justify-center gap-3 hover:shadow-lg transition-all active:scale-95">
+<span class="material-symbols-outlined">map</span> Open Complete Plan B Route
+                    </button>
 </div>
 </div>
 </section>
-<!-- Parent Recommendations -->
-<section class="grid grid-cols-1 md:grid-cols-2 gap-gutter mb-stack-lg">
-<div class="bg-primary/5 p-stack-lg rounded-3xl border border-primary/10">
-<div class="flex items-center space-x-2 mb-stack-sm">
-<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">recommend</span>
-<h4 class="font-headline-sm text-headline-sm text-primary">Why Plan A Wins for Culture</h4>
+<!-- Integrated Parking Section -->
+<section class="bg-surface-container-highest py-stack-lg mt-12">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex items-center gap-4 mb-10">
+<div class="p-3 bg-secondary-container rounded-2xl text-on-secondary-container">
+<span class="material-symbols-outlined text-3xl">local_parking</span>
 </div>
-<p class="text-body-md text-on-surface-variant">
-                    Plan A offers a more meaningful, slowed-down experience. The visit to the Sikh Gurdwara for Langar (community meal) provides a profound cultural lesson for children about hospitality and service. Finishing at the Getty for sunset is less rushed and highly cinematic.
-                </p>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Parking &amp; Logistics Hub</h2>
+<p class="text-on-surface-variant">Strategic parking spots for a stress-free family experience.</p>
 </div>
-<div class="bg-secondary/5 p-stack-lg rounded-3xl border border-secondary/10">
-<div class="flex items-center space-x-2 mb-stack-sm">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
-<h4 class="font-headline-sm text-headline-sm text-secondary">Why Plan B Wins for Icons</h4>
 </div>
-<p class="text-body-md text-on-surface-variant">
-                    If your goal is to "see it all," Plan B is optimized for proximity and traffic flow. By hitting the Getty in the morning, you avoid the late-afternoon rush and can spend more focused time in the DTLA arts district. Best for families with older teens or rapid sightseers.
-                </p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Parking Card -->
+<div class="bg-surface rounded-2xl p-6 shadow-sm border border-outline-variant/30 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<h4 class="font-headline-sm text-headline-sm text-primary">Hollywood</h4>
+<span class="text-error font-bold text-label-sm flex items-center gap-1">Paid <span class="material-symbols-outlined text-sm">attach_money</span></span>
+</div>
+<p class="text-on-surface-variant text-body-md mb-6 flex-grow">Ovation Hollywood Garage is highly recommended. Alternatively, look for legal residential spots north of Hollywood Blvd.</p>
+<button class="w-full py-2 bg-surface-container-high rounded-xl font-label-md text-label-md text-primary hover:bg-primary hover:text-white transition-colors">Navigate to Spot</button>
+</div>
+<div class="bg-surface rounded-2xl p-6 shadow-sm border border-outline-variant/30 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<h4 class="font-headline-sm text-headline-sm text-primary">Gurdwara</h4>
+<span class="text-tertiary font-bold text-label-sm flex items-center gap-1">Free <span class="material-symbols-outlined text-sm">check_circle</span></span>
+</div>
+<p class="text-on-surface-variant text-body-md mb-6 flex-grow">Free on-site parking is available for visitors at both Greystone Mansion and the Sikh Gurdwara.</p>
+<button class="w-full py-2 bg-surface-container-high rounded-xl font-label-md text-label-md text-primary hover:bg-primary hover:text-white transition-colors">Navigate to Spot</button>
+</div>
+<div class="bg-surface rounded-2xl p-6 shadow-sm border border-outline-variant/30 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<h4 class="font-headline-sm text-headline-sm text-primary">Downtown LA</h4>
+<span class="text-secondary font-bold text-label-sm flex items-center gap-1">Walk <span class="material-symbols-outlined text-sm">directions_walk</span></span>
+</div>
+<p class="text-on-surface-variant text-body-md mb-6 flex-grow">Best strategy: Park once at the Broad or Library and walk to all DTLA locations (Market, Bookstore, Bradbury).</p>
+<button class="w-full py-2 bg-surface-container-high rounded-xl font-label-md text-label-md text-primary hover:bg-primary hover:text-white transition-colors">Navigate to Spot</button>
+</div>
+<div class="bg-surface rounded-2xl p-6 shadow-sm border border-outline-variant/30 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<h4 class="font-headline-sm text-headline-sm text-primary">Getty/Academy</h4>
+<span class="text-error font-bold text-label-sm flex items-center gap-1">Official <span class="material-symbols-outlined text-sm">local_activity</span></span>
+</div>
+<p class="text-on-surface-variant text-body-md mb-6 flex-grow">Use the official museum parking structures. Reservations are highly recommended for the Getty Center.</p>
+<button class="w-full py-2 bg-surface-container-high rounded-xl font-label-md text-label-md text-primary hover:bg-primary hover:text-white transition-colors">Navigate to Spot</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Map CTA Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg mb-12">
+<div class="relative rounded-[40px] overflow-hidden aspect-[16/6] min-h-[300px] flex items-center justify-center">
+<img alt="Aerial view of Los Angeles highway interchange" class="absolute inset-0 w-full h-full object-cover" data-alt="A cinematic aerial long-exposure photograph of a complex Los Angeles highway interchange at dusk. The vehicle lights create long, flowing streaks of white and red across the frame. The surrounding cityscape is bathed in the warm, golden glow of the setting sun, while the sky transitions from a deep orange to a cool twilight purple. The overall mood is sophisticated, dynamic, and captures the vibrant pulse of California urban life." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaERa_TIMmASnyQ7hDvo0P2lElkvbuYN5ol3Pe9-RxoJyNuL_hk7dgXBCbZq-9Py_mfl6L9e6E_lYNTJ1B509D3YGzAzW8aVoHlhL6NTFczZUn7_Zfqp0YRUrSlsPWeHdbggWs2x5IvS8BLxMJIwIkTErNvsGnGglZpgYSU4jzlyK7tIev8ZsdWw505Unryk7ljI3hGc9qJPES5e-Ds7fGaImceZY0ahzqQsO2mHe79GJo5jPso8LcrByWN2GgZpmS8nxsKxKypA"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-sm"></div>
+<div class="relative z-10 text-center text-white px-6">
+<h2 class="font-display-lg-mobile text-display-lg-mobile mb-6">Ready to hit the road?</h2>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="px-8 py-4 bg-white text-primary rounded-2xl font-bold hover:scale-105 transition-transform flex items-center gap-2">
+<span class="material-symbols-outlined">directions_car</span> Start Live Navigation
+                        </button>
+<button class="px-8 py-4 bg-transparent border-2 border-white text-white rounded-2xl font-bold hover:bg-white/10 transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined">share</span> Share with Family
+                        </button>
+</div>
+</div>
 </div>
 </section>
 </main>
 <!-- Footer -->
-<footer class="bg-surface-container-low dark:bg-surface-dim border-t border-outline-variant">
-<div class="flex flex-col md:flex-row justify-between items-center py-stack-lg px-margin-desktop max-w-container-max mx-auto">
-<div class="mb-stack-md md:mb-0">
-<span class="font-display-lg text-headline-sm text-on-surface">LA Family Travel</span>
-<p class="text-on-surface-variant font-label-sm text-label-sm mt-1">© 2024 LA Family Travel Planner. All rights reserved.</p>
+<footer class="bg-surface-container-lowest border-t border-outline-variant w-full mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center py-stack-lg px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto">
+<div class="mb-6 md:mb-0">
+<span class="font-label-md text-label-md font-bold text-on-surface">Kinetic Horizon Travel</span>
+<p class="text-on-surface-variant font-label-sm text-label-sm mt-1">© 2024 Kinetic Horizon Travel. All rights reserved.</p>
 </div>
-<div class="flex flex-wrap justify-center gap-stack-md">
-<a class="text-on-surface-variant hover:underline hover:text-primary transition-all duration-300 font-label-sm text-label-sm" href="#">Privacy Policy</a>
-<a class="text-on-surface-variant hover:underline hover:text-primary transition-all duration-300 font-label-sm text-label-sm" href="#">Terms of Service</a>
-<a class="text-on-surface-variant hover:underline hover:text-primary transition-all duration-300 font-label-sm text-label-sm" href="#">Printable Itinerary</a>
-<a class="text-on-surface-variant hover:underline hover:text-primary transition-all duration-300 font-label-sm text-label-sm" href="#">Contact Support</a>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Legal</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Print Itinerary</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Support</a>
 </div>
 </div>
 </footer>
+<!-- FAB for quick action -->
+<button class="fixed bottom-8 right-8 w-14 h-14 bg-secondary-container text-on-secondary-container rounded-2xl shadow-xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-50">
+<span class="material-symbols-outlined text-2xl">add</span>
+</button>
 <script>
-        // Simple micro-interaction for cards
-        document.querySelectorAll('button').forEach(button => {
-            button.addEventListener('mousedown', () => {
-                button.style.transform = 'scale(0.98)';
+        // Simple intersection observer for reveal animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('translate-y-4');
+                }
             });
-            button.addEventListener('mouseup', () => {
-                button.style.transform = 'scale(1)';
-            });
-            button.addEventListener('mouseleave', () => {
-                button.style.transform = 'scale(1)';
-            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section > div').forEach(div => {
+            div.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+            observer.observe(div);
         });
+
+        // Toggle logic for mobile could be added here
     </script>
 </body></html>
